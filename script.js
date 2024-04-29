@@ -1,5 +1,6 @@
 // console.log("Cualquier string");
 
+// Ejecuta tu código escribiendo en la terminal: $ node script.js
 
 let pronoun = ['the', 'our'];
 let adj = ['great', 'big'];
