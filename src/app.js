@@ -32,7 +32,7 @@ console.log(dominio);
 // let domains = pronoun.map(elem =>
 //     adj.map(elem1 =>
 //       noun.map(elem2 =>
-//         elem+elem1+elem2+"com")
+//         elem+elem1+elem2+".com")
 //     )
 //   ).flat(3);
 //   console.log(domains);
