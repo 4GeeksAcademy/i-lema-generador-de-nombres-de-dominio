@@ -6,17 +6,17 @@ let pronoun = ['the', 'our'];
 let adj = ['great', 'big'];
 let noun = ['jogger', 'racoon'];
 
-let dominio = [];
+// let dominio = [];
 
-for (let i = 0; i < pronoun.length; i++) {
-  for (let x = 0; x < adj.length; x++) {
-    for (let y = 0; y < noun.length; y++) {
-      dominio.push(pronoun[i] + adj[x] + noun[y] + '.com');
-    }
-  }
-}
+// for (let i = 0; i < pronoun.length; i++) {
+//   for (let x = 0; x < adj.length; x++) {
+//     for (let y = 0; y < noun.length; y++) {
+//       dominio.push(pronoun[i] + adj[x] + noun[y] + '.com');
+//     }
+//   }
+// }
 
-console.log(dominio);
+// console.log(dominio);
 
 
 // pronoun.forEach((elem)=>
@@ -29,10 +29,10 @@ console.log(dominio);
 // console.log(dominio);
 
 
-// let domains = pronoun.map(elem =>
-//     adj.map(elem1 =>
-//       noun.map(elem2 =>
-//         elem+elem1+elem2+".com")
-//     )
-//   ).flat(3);
-//   console.log(domains);
+let domains = pronoun.map(elem =>
+    adj.map(elem1 =>
+      noun.map(elem2 =>
+        elem+elem1+elem2+".com")
+    )
+  ).flat(3);
+  console.log(domains);
